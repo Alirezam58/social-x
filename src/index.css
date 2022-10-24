@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'Yekan';
+  src: url(./assets/fonts/Yekan.eot);
+  src: url(./assets/fonts/Yekan.eot) format("embedded-opentype"),
+       url(./assets/fonts/Yekan.woff) format("woff"),
+       url(./assets/fonts/Yekan.ttf) format("truetype"),
+       url(./assets/fonts/Yekan.svg) format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --font-family: Yekan;
+  --dark-blue: #0a1930;
+  --light-blue: #1f93ff;
+  --light-orange : #FF4500;
+  --color-white: #fff;
+  --dark-text: #333;
+  --form-button: #2da5ff;
+  --color-grey: #eae6eb;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+  direction: rtl;
+}
+
+body {
+  font-family: var(--font-family)
+}
+
+section {
+  width: 100%;
+  padding: 8rem 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.u-text-small{
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.u-text-light{
+  color: var(--color-white);
+}
+
+.u-text-dark{
+  color: var(--dark-text);
+}
+
+/* title */
+.u-title{
+  text-align: center;
+  margin-bottom: 3.4rem;
+}
+
+.u-title h2{
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: var(--dark-text);
+  margin: 1.2rem 0;
+}
+
+.u-title p{
+  width: 50%;
+  min-width: 40rem;
+  margin: 0 auto;
+}

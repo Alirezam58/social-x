@@ -1,0 +1,41 @@
+footer#footer{
+    background: var(--dark-blue);
+    color: var(--color-white);
+    width: 100%;
+    padding: 6.5rem 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.footer h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.footer-box{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-contact p,
+.footer-box p{
+    font-size: 1.2rem;
+}
